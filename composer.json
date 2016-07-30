@@ -17,7 +17,10 @@
         "sleeping-owl/admin": "dev-fixSentinelfix52",
         "laravelcollective/html": "5.2.*",
         "barryvdh/laravel-ide-helper": "^2.2",
-        "doctrine/dbal": "^2.5"
+        "doctrine/dbal": "^2.5",
+        "kalnoy/nestedset" : "^4.0",
+        "intervention/image": "*",
+        "intervention/imagecache": "*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
