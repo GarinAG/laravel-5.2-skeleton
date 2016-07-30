@@ -152,6 +152,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         SleepingOwl\Admin\AdminServiceProvider::class,
+        JeroenG\Packager\PackagerServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -159,6 +160,8 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+        Intergit\Products\ProductsServiceProvider::class,
 
     ],
 

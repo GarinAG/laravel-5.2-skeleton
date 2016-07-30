@@ -17,7 +17,9 @@
         "sleeping-owl/admin": "dev-fixSentinelfix52",
         "laravelcollective/html": "5.2.*",
         "barryvdh/laravel-ide-helper": "^2.2",
-        "doctrine/dbal": "^2.5"
+        "doctrine/dbal": "^2.5",
+        "jeroen-g/laravel-packager" : "dev-master",
+        "kalnoy/nestedset" : "^4.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -31,6 +33,7 @@
             "database"
         ],
         "psr-4": {
+            "Intergit\\Products\\": "packages/Intergit/Products/src/",
             "App\\": "app/"
         }
     },
