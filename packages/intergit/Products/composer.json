@@ -1,18 +1,18 @@
 {
-    "name": "Intergit/Products",
+    "name": "intergit/products",
     "type": "library",
     "description": "Товары",
     "keywords": [
         "Intergit",
         "Products"
     ],
-    "homepage": "https://github.com/Intergit/Products",
+    "homepage": "https://github.com/intergit/products",
     "license": "MIT",
     "authors": [
         {
             "name": "Arthur Garin",
             "email": "garin.ag1989@gmail.com",
-            "homepage": "dglobe.ru",
+            "homepage": "http://dglobe.ru",
             "role": "Developer"
         }
     ],
