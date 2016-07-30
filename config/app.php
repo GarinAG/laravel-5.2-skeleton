@@ -154,6 +154,7 @@ return [
         SleepingOwl\Admin\AdminServiceProvider::class,
         JeroenG\Packager\PackagerServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
+        Angrydeer\Attachfiles\AttachfilesServiceProvider::class,
         /*
          * Application Service Providers...
          */

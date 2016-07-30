@@ -4,9 +4,63 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "651151c308d53c21438e1be10ac7251e",
-    "content-hash": "2942b64082e7f94acaf7266f29206f4c",
+    "hash": "b30b433c9f469f26621e9f0850c21b99",
+    "content-hash": "e13ef4b222e8a5744335fff85eaf1f71",
     "packages": [
+        {
+            "name": "angrydeer/attachfiles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AngryDeer/Attachfiles.git",
+                "reference": "c63d6987f3aff02eb405ac220d333f0ad9939828"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AngryDeer/Attachfiles/zipball/c63d6987f3aff02eb405ac220d333f0ad9939828",
+                "reference": "c63d6987f3aff02eb405ac220d333f0ad9939828",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.1",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Angrydeer\\Attachfiles\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AngryDeer",
+                    "email": "dimkin.pivovarov@gmail.com",
+                    "homepage": "http://angrydeer.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add some attached files to Eloquent model and store it to storage/app/attached/{Y-m-d} dir. ",
+            "homepage": "https://github.com/AngryDeer/Attachfiles",
+            "keywords": [
+                "Angrydeer",
+                "Attachfiles"
+            ],
+            "time": "2016-02-18 11:31:44"
+        },
         {
             "name": "barryvdh/laravel-ide-helper",
             "version": "v2.2.1",
@@ -4426,7 +4480,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "sleeping-owl/admin": 20,
-        "jeroen-g/laravel-packager": 20
+        "jeroen-g/laravel-packager": 20,
+        "angrydeer/attachfiles": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

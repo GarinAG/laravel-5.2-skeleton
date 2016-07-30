@@ -37,3 +37,16 @@
     @endforeach
     <li class="ibl">->{{$node->name}}</li>
 @endif
+
+<h1>Товары категории</h1>
+<ul>
+    @foreach($products as $product)
+        <li>
+            @if($product->attaches()->count() > 0)
+                <img src="{{URL::to($product->attaches->first()->filename)}}" alt="{{$product->attaches->first()->alt}} title="{{$product->attaches->first()->title}}>
+            @endif
+            <a href="{{URL::to('product/'.$product->slug.'/'.$node->id)}}">{{$product->name}}</a>
+        </li>
+    @endforeach
+</ul>
+{!! $products->links() !!}
