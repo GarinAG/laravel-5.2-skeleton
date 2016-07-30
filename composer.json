@@ -19,7 +19,9 @@
         "barryvdh/laravel-ide-helper": "^2.2",
         "doctrine/dbal": "^2.5",
         "jeroen-g/laravel-packager" : "dev-master",
-        "kalnoy/nestedset" : "^4.0"
+        "kalnoy/nestedset" : "^4.0",
+        "intervention/image": "*",
+        "intervention/imagecache": "*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

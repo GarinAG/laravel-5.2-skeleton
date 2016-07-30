@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', function () {return view('welcome');});
+Route::get('/', function () {
+    return view('welcome');
+});
 // Вызов страницы регистрации пользователя
 Route::get('register', 'AuthController@register');
 // Пользователь заполнил форму регистрации и отправил
@@ -36,3 +38,6 @@ Route::post('reset/{id}/{code}', 'AuthController@resetCompleteProcess');
 // Сервисная страничка, показываем после заполнения рег формы, формы сброса и т.
 // о том, что письмо отправлено и надо заглянуть в почтовый ящик.
 Route::get('wait', 'AuthController@wait');
+//Работа с изображениями
+Route::get('attaches/{dateImg}/{filename}/{width}/{height}/{type?}/{anchor?}', 'ImageController@whResize');
+Route::get('attaches/{dateImg}/{filename}/', 'ImageController@fullImage');
